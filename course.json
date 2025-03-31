@@ -1,0 +1,28 @@
+{
+    "name": "Simple Course",
+    "polygon": [[100, 100], [500, 100], [500, 250], [600, 250], [600, 100], [700, 100], [700, 500], [600, 500], [450, 400], [450, 300], [100, 300]],
+    "damping": 0.6,
+    "color_background": [32, 16, 4],
+    "color_course": [40, 65, 10],
+    "color_course_stroke" : [20, 32, 5],
+    "color_ball": [192, 192, 192],
+    "color_holes": [0, 0, 0],
+    "holes": [
+        {
+            "pos": [650, 200],
+            "radius": 15
+        }
+    ],
+    "obstacles": [
+        {
+            "type": "circle",
+            "pos": [400, 200],
+            "radius": 50,
+            "damping": 0.25,
+            "color": [128, 40, 20]
+        }
+    ],
+    "ball_start": [200, 200],
+    "ball_friction": 0.85,
+    "ball_radius": 8.0
+}
